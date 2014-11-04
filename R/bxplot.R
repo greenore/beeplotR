@@ -1,3 +1,12 @@
+# bxplot.R
+#
+# Aron Charles Eklund
+##
+# A part of the "beeswarm" R package
+# 
+
+
+
 bxplot <- function (x, ...) 
   UseMethod("bxplot")
 

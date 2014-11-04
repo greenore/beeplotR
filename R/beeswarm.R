@@ -1,3 +1,11 @@
+# beeswarm.R
+#
+# Aron Charles Eklund
+#
+# A part of the "beeswarm" R package
+# 
+
+
 beeswarm <- function (x, ...) 
   UseMethod("beeswarm")
 
@@ -251,14 +259,14 @@ beeswarm.default <- function(x,
       if(!add) {
         axis(1, ...)
         axis(2, at = at, labels = labels, tick = FALSE, ...)
-        # box(...)
+        box(...)
       }
     } else {
       points(out$x, out$y, pch = out$pch, col = out$col, bg = out$bg, cex = cex)  
       if(!add) {
         axis(2, ...)
         axis(1, at = at, labels = labels, tick = FALSE, ...)
-        # box(...)
+        box(...)
       }
     }
   }
