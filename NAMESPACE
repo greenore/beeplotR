@@ -1,10 +1,12 @@
-
-export(beeswarm, bxplot, swarmx, swarmy, beeplot)
+export(beeswarm)
+export(bxplot)
+export(swarmx)
+export(swarmy)
+export(beePlot)
 
 S3method(beeswarm, default)
 S3method(beeswarm, formula)
 S3method(bxplot, default)
 S3method(bxplot, formula)
-S3method(beePlot, default)
-S3method(beePlot, formula)
-
+S3method(beeplot, default)
+S3method(beeplot, formula)
