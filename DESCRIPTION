@@ -1,4 +1,4 @@
-Package: beeplot
+Package: beeplotR
 Type: Package
 Title: An addaption of the beeswarm plot
 Version: 0.1.6
