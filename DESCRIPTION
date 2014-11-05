@@ -11,5 +11,7 @@ Description: The beeswarm plot is a one-dimensional scatter plot like "stripchar
     the original function are not modified.
 Depends:
     R (>= 3.0.2)
+Imports:
+    visualizeR
 Roxygen: list(wrap = FALSE)
 License: Artistic-2.0
