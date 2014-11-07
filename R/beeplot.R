@@ -51,7 +51,7 @@ beePlot <- function(id, category, num_var, rank, data, color, range=c(0, max),
   aggPrime <- aggFun(praemie=num_var, category=category, data=df)
   
   # Plotting
-  par(mar=c(5, 6, 4, 2) + 0.1)
+  par(mar=c(8, 6, 4, 2) + 0.1)
   
   if (bee_plot == FALSE){
     boxplot(eval(parse(text=textFun(num_var, category))), data=df, border=FALSE,
