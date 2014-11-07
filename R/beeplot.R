@@ -35,6 +35,8 @@ beePlot <- function(id, category, num_var, rank, data, color, range=c(0, max),
   # Ceiling
   data[, num_var] <- as.numeric(data[, num_var])
   df <- data[!is.na(data[, num_var]), ]
+  df <- df[!is.na(df[, rank]), ]
+  
   max <- ceiling(max(df[, num_var])/100)*100
   
   # Number of Top 3
