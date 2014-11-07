@@ -1,7 +1,7 @@
 Package: beeplotR
 Type: Package
 Title: An addaption of the beeswarm plot
-Version: 0.1.6
+Version: 0.2
 Date: 2014-02-27
 Author: Tim Hagmann <tim.hagmann@baloise.ch>
 Maintainer: Tim Hagmann <tim.hagmann@baloise.ch>
