@@ -34,6 +34,8 @@ beePlot <- function(id, category, num_var, rank, data, color, range=c(0, max),
   
   # Ceiling
   data[, num_var] <- as.numeric(data[, num_var])
+  
+  # Exlcude missings
   df <- data[!is.na(data[, num_var]), ]
   df <- df[!is.na(df[, rank]), ]
   
