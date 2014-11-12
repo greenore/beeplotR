@@ -10,7 +10,14 @@ URL: http://www.cbs.dtu.dk/~eklund/beeswarm/
 
 To install beeplotR from Github requires the devtools package from CRAN. That means running the following commands:
 
+#### Windows:
 ```
-install.packages("devtools")
-devtools::install_github(repo="greenore/beeplotR")
+source("https://rawgit.com/greenore/initR/master/init.R")
+packagesGithub("beeplotR", repo_name="greenore")
+```
+
+#### Linux:
+```
+source(pipe(paste("wget -O -", "https://rawgit.com/greenore/initR/master/init.R")))
+packagesGithub("beeplotR", repo_name="greenore")
 ```
